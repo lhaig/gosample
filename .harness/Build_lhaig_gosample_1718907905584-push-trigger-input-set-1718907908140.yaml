@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_lhaig_gosample_1718907905584-push-trigger-input-set
+  identifier: Build_lhaig_gosample_1718907905584pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_lhaig_gosample_1718907905584
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
